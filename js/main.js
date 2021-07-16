@@ -1,3 +1,3 @@
 function removeTask(task) {
-    document.getElementById(String(task)).remove()
+    document.getElementById(task).remove();
 }
