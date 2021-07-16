@@ -1,3 +1,4 @@
 function removeTask(task) {
-    document.getElementById(task).remove();
+    const element = document.getElementById(task);
+    element.remove();
 }
